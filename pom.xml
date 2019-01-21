@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.mdlaf</groupId>
+    <groupId>org.mpizexternal</groupId>
     <artifactId>material-ui-swing</artifactId>
     <version>0.9.3.3</version>
 
@@ -34,4 +34,13 @@
             </resource>
         </resources>
     </build>
+    
+    <distributionManagement>
+        <repository>
+            <id>clojars</id>
+            <name>Clojars repository</name>
+            <url>https://clojars.org/repo</url>
+        </repository>
+    </distributionManagement>
+    
 </project>
